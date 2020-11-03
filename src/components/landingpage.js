@@ -19,7 +19,7 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Software Engineer</h1>
                             <hr />
-                            <p>Java | Python | Javascript | React | HTML | CSS | MySQL</p>
+                            <p>Java | Python | Javascript | React | MySQL</p>
                             
                             <div className="social-links">
                                 {/* LinkedIn*/}

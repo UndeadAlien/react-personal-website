@@ -12,17 +12,16 @@ class Resume extends Component {
                     {/* Left Side */} 
                     <Cell col={4}>
                         <h2>Connor Hutchinson</h2>
-                        <h4 style={{color: 'grey'}}>Software Engineer</h4>
-                        <hr style={{borderTop: '3px solid #833fb2', wdith: '50%'}}/>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        <h4 style={{color: 'black'}}>Software Engineer</h4>
+                        <hr style={{borderTop: '2px solid gray', wdith: '50%'}}/>
+                        <p>
+                            -ABOUT ME-
                         </p>
-                        <hr style={{borderTop: '3px solid #833fb2', wdith: '50%'}}/>
+                        <hr style={{borderTop: '2px solid gray', wdith: '50%'}}/>
 
-                        {/* Address */}
-                        <h5>Address</h5>
-                        <p>123 Hacker Way Menlo Park, 94025</p>
+                        {/* Location */}
+                        <h5>Location</h5>
+                        <p>Chicago, IL</p>
 
                         {/* Phone */}
                         <h5>Phone</h5>
@@ -30,45 +29,55 @@ class Resume extends Component {
 
                         {/* Email */}
                         <h5>Email</h5>
-                        <p>Email@email.com</p>
+                        <p>WorkHutchC@gmail.com</p>
 
-                        {/* Website */}
-                        <h5>Web</h5>
-                        <p>Website.com</p>
-
-                        <hr style={{borderTop: '3px solid #833fb2', wdith: '50%'}}/>
                     </Cell>
 
                     <Cell className="resume-right-col" col={8}>
-                        <h3>Education</h3>
+                        <h4>Education</h4>
                         <Education 
-                            startYear={2012}
-                            endYear={2013}
-                            schoolName="University"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            startYear={2013}
+                            endYear={2015}
+                            schoolName="Florida Southwestern"
+                            schoolDescription="Associates in Science - Emergency Medicine"
                         />
                         <hr style={{borderTop: '3px solid grey'}} />
-                        <h3>Experience</h3>
+                        <h4>Work History</h4>
                         <Experience
-                            startYear={2012}
-                            endYear={2013}
-                            jobName="Experience #1"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            startYear={2018}
+                            endYear={2020}
+                            jobLocation="Yard of Ale"
+                            jobName="Head Barback"
+                            jobDescription="Maintained a sanitary workplace abiding to Food and Drug Regulations all while providing excellent customer service while executing requests from bartenders and guest."
                         />
                         <Experience
-                            startYear={2012}
-                            endYear={2013}
-                            jobName="Experience #1"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            startYear={2015}
+                            endYear={2018}
+                            jobLocation="Fergs Live"
+                            jobName="Barback"
+                            jobDescription="Setup and tore down event bars for sporting events. 
+                            Made sure guests, bartender, and band members had what was needed to make the event run smoothly."
                         />
                         <Experience
-                            startYear={2012}
-                            endYear={2013}
-                            jobName="Experience #1"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            startYear={2016}
+                            endYear={2018}
+                            jobLocation="American Medical Response"
+                            jobName="Medic"
+                            jobDescription="Provided medical assistance during emergency situations, such as CPR, AED, prevent shock, control severe bleeding, prevent spinal damage."
+                        />
+                        <Experience
+                            startYear={2013}
+                            endYear={2015}
+                            jobLocation="Cheddars Scratch Kitchen"
+                            jobName="Bartender"
+                            jobDescription="Verify identification and age requirements of customers, 
+                            mixed traditional and creative cocktails, 
+                            processed payments, 
+                            santitized glasses and the bar, 
+                            and built a rappor with regular customers to create a positive atmosphere."
                         />
                         <hr style={{borderTop: '3px solid grey'}} />
-                        <h2>Skills</h2>
+                        <h4>Skills</h4>
                         <Skills
                             skill="Python"
                             progress={80}
